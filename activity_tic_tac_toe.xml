@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicTacToeActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+    <Button
+        android:id="@+id/Square00"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Square01"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/Square00"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Square02"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/Square01"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Square10"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Square00" />
+
+    <Button
+        android:id="@+id/Square11"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/Square10"
+        app:layout_constraintTop_toBottomOf="@+id/Square01" />
+
+    <Button
+        android:id="@+id/Square12"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/Square11"
+        app:layout_constraintTop_toBottomOf="@+id/Square02" />
+
+    <Button
+        android:id="@+id/Square20"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Square10" />
+
+    <Button
+        android:id="@+id/Square21"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/Square20"
+        app:layout_constraintTop_toBottomOf="@+id/Square11" />
+
+    <Button
+        android:id="@+id/Square22"
+        android:layout_width="77dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/Square21"
+        app:layout_constraintTop_toBottomOf="@+id/Square12" />
+
+    <Button
+        android:id="@+id/NewGame"
+        android:layout_width="202dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:textSize="32sp"
+        android:text="New Game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+</android.support.constraint.ConstraintLayout>
